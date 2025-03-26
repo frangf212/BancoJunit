@@ -66,12 +66,12 @@ class BancoTest {
     }
 
     @AfterEach
-    fun cleanup() {
+    fun despues() {
         println("Este método se ejecuta después de CADA prueba")
     }
 
     @AfterAll
-    fun cleanupOnce() {
+    fun despuesdetodo() {
         println("Este método se ejecuta después de TODAS las pruebas")
     }
 }
